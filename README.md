@@ -2,4 +2,4 @@
 
 Integrantes: Juan Ignacio Andrada Guzman, Lautaro Ocanto, Tomas Castelo
 
-Frameworks: Tailwind vs Bulma
+Frameworks: Tailwind vs Fomantic-UI
