@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda - Inicio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+    <main class="container mx-auto px-6 py-10">
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10 bg-white p-6 rounded-lg shadow">
+
+            <div>
+                <img
+                    src="/version-con-tailwind/img/cheeseburger.png"
+                    alt="Producto"
+                    class="w-full rounded-lg">
+            </div>
+
+            <div>
+
+                <h2 class="text-4xl font-bold mb-4">
+                    Cheeseburger
+                </h2>
+
+                <p class="text-3xl font-bold text-black-200 mb-4">
+                    $9.999
+                </p>
+
+                <p class="text-gray-600 mb-6">
+                    Medallón de carne vacuna (100 grs), 2 fetas de cheddar, cebolla natural & salsa Tec! (Incluye porción de papas fritas).
+                </p>
+
+                <h3 class="text-xl font-bold mt-8 mb-4">
+                    Personalizá tu hamburguesa
+                </h3>
+                
+                <div class="bg-gray-100 p-4 rounded-lg">
+                
+                    <h4 class="font-semibold mb-2">Extras</h4>
+                
+                    <div class="space-y-2">
+                        <label class="flex justify-between">
+                            <span>
+                                <input type="checkbox" class="mr-2">
+                                Extra cheddar
+                            </span>
+                            <span>+$1000</span>
+                        </label>
+                
+                        <label class="flex justify-between">
+                            <span>
+                                <input type="checkbox" class="mr-2">
+                                Panceta
+                            </span>
+                            <span>+$1500</span>
+                        </label>
+                
+                        <label class="flex justify-between">
+                            <span>
+                                <input type="checkbox" class="mr-2">
+                                Medallón extra
+                            </span>
+                            <span>+$2500</span>
+                        </label>
+                    </div>
+                
+                    <h4 class="font-semibold mt-6 mb-2">
+                        Quitar ingredientes
+                    </h4>
+                
+                    <div class="space-y-2">
+                        <label class="block">
+                            <input type="checkbox" class="mr-2">
+                            Sin cebolla
+                        </label>
+                
+                        <label class="block">
+                            <input type="checkbox" class="mr-2">
+                            Sin cheddar
+                        </label>
+                
+                        <label class="block">
+                            <input type="checkbox" class="mr-2">
+                            Sin salsa especial
+                        </label>
+                    </div>
+                
+                </div>
+
+                <button
+                    class="bg-green-500 hover:bg-green-700 text-white px-6 py-3 rounded-lg transition">
+                    Comprar ahora
+                </button>
+
+                <a
+                    href="index.html"
+                    class="ml-4 bg-gray-500 hover:bg-gray-700 text-white px-6 py-3 rounded-lg transition inline-block">
+                    Volver
+                </a>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2026 Nombre de la Tienda. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
