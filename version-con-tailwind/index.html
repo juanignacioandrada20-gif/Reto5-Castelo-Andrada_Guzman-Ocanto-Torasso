@@ -9,21 +9,58 @@
 </head>
 <body>
 
+<!-- Navbar -->
+<header class="bg-stone-900 flex justify-between items-center px-2 h-20">
+  <!-- logo y nombre -->
+  <div class="flex items-center gap-x-4">
+    <!-- Logo circular -->
+    <div class="w-28 h-28 rounded-full overflow-hidden flex items-center justify-center">
+      <img src="img/cruda_logo.svg" alt="Logo Cruda" class="w-full h-full object-cover">
+    </div>
+    <!-- Nombre del sitio -->
+    <h1 class="text-2xl font-semibold text-orange-400">Cruda</h1>
+  </div>
+  <!-- Botón de menú -->
+  <button class="text-lg font-semibold text-white hover:bg-white/10 px-4 py-2 rounded-lg transition">Menú</button>
+</header>
+<!-- Hero Section -->
+<section class="relative py-16 px-8 flex flex-col items-center text-center gap-8"> 
+  <!-- imagen de fondo -->
+  <img src="img/hero_background_cruda.svg" alt="" class="absolute inset-0 w-full h-full object-cover">
+  <!-- contenido encima -->
+  <div class="relative z-10 flex flex-col items-center gap-8">
+    <!-- Título de bienvenida -->
+    <h1 class="text-4xl font-bold text-orange-400">
+      Bienvenidos a Cruda
+    </h1>
+    <p class="font-bold text-stone-300">Los mejores platos de comida que podes encontrar</p>
+    <!-- Imagen introductoria -->
+    <div class="w-80 h-48 bg-stone-900 rounded-lg overflow-hidden">
+      <img src="img/img_introductoria.avif" alt="" class="w-full h-full object-cover">
+    </div>
+  </div>
+</section>
+<!--Parte de los productos -->
+</body>
+<body>
     <header class="main-header">
-        <div class="logo">
-            <img src="placeholder-logo.png" alt="Logotipo Producto">
-        </div>
-        <nav class="main-nav">
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="#productos">Productos</a></li>
-                <li><a href="#">Contacto</a></li>
+        <nav class="bg-stone-900 p-1">
+            <ul class="flex justify-between text-white font-bold">
+                <li><a href="index.html" class="p-1 px-1 hover:bg-stone-700 rounded-lg transition">Inicio</a></li>
+                <li><a href="#productos" class="p-1 px-1 hover:bg-stone-700 rounded-lg transition">Productos</a></li>
+                <li><a href="#" class="p-1 px-1 hover:bg-stone-700 rounded-lg transition">Contacto</a></li>
             </ul>
         </nav>
     </header>
-
-    <section class="hero-section">
-        <img src="placeholder-hero.jpg" alt="Portada Destacada del Producto" class="hero-image">
+    <section>
+        <!--Producto destacado bajo del nav-->
+        <article class="bg-stone-700 rounded-lg shadow p-4 hover:shadow-x1 transition">
+                <img src="placeholder-prod1.jpg" alt="portada destacada del producto" class="w-full rounded mb-4 object-cover h-48 bg-stone-900">
+                <h3 class="text-lg font-bold text-gray-800">Producto Destacado</h3>
+                <p class="text-gray-500 text-sm mt-1">Descripción corta del producto destacado para atraer al usuario.</p>
+                <span class="block text-blue-600 font-bold text-x1 mt-3">$ colocar precio del producto destacado a elegir</span>
+                <a href="detalle.html" class=" text-white bg-stone-700 hover:bg-stone-900 text-center py-2 rounded transition">Ver detalle</a>
+            </article>
     </section>
 
     <main class="content-body">
