@@ -1,0 +1,19 @@
+<svg width="680" height="680" viewBox="0 0 680 680" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>Logo Cruda</title>
+  <desc>Logo de perfil para la página de comidas Cruda</desc>
+  <rect x="140" y="140" width="400" height="400" rx="80" fill="#1A1008"/>
+  <ellipse cx="340" cy="295" rx="90" ry="115" fill="#E8500A"/>
+  <ellipse cx="295" cy="255" rx="28" ry="38" fill="#C43E06"/>
+  <ellipse cx="385" cy="248" rx="24" ry="32" fill="#C43E06"/>
+  <ellipse cx="340" cy="230" rx="20" ry="28" fill="#C43E06"/>
+  <ellipse cx="340" cy="295" rx="72" ry="95" fill="#F4812F"/>
+  <ellipse cx="320" cy="260" rx="10" ry="14" fill="#E8500A"/>
+  <ellipse cx="358" cy="255" rx="8" ry="12" fill="#E8500A"/>
+  <ellipse cx="338" cy="310" rx="9" ry="13" fill="#E8500A"/>
+  <ellipse cx="295" cy="255" rx="14" ry="20" fill="#F4812F"/>
+  <ellipse cx="385" cy="248" rx="12" ry="17" fill="#F4812F"/>
+  <ellipse cx="340" cy="230" rx="10" ry="15" fill="#F4812F"/>
+  <path d="M280 390 Q340 430 400 390" stroke="#E8500A" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <text x="340" y="490" text-anchor="middle" font-family="Georgia, serif" font-size="62" font-weight="700" letter-spacing="10" fill="#F4812F">CRUDA</text>
+  <text x="340" y="518" text-anchor="middle" font-family="Georgia, serif" font-size="16" letter-spacing="5" fill="#7A4520">COCINA HONESTA</text>
+</svg>
