@@ -1,11 +1,55 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tienda - Inicio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Header y Hero - Fomantic UI</title>
+
+  <!-- Fomantic UI conectado por CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.4/dist/semantic.min.css">
 </head>
+<body>
+
+  <!-- Header -->
+  <header class="ui green inverted padded vertical segment">
+    <div class="ui middle aligned grid">
+
+      <!-- Logo y nombre -->
+      <div class="twelve wide column">
+        <div class="ui relaxed horizontal middle aligned list">
+          <div class="item">
+            <div class="ui circular segment">
+              Logo
+            </div>
+          </div>
+
+          <div class="item">
+            <h1 class="ui inverted header">Nombre WEB</h1>
+          </div>
+        </div>
+      </div>
+
+      <!-- Botón de menú -->
+      <div class="four wide right aligned column">
+        <button class="ui basic black large button">Menu</button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Sección Hero -->
+  <section class="ui center aligned very padded basic segment">
+    <h1 class="ui huge header">Texto bienvenida</h1>
+
+    <div class="ui centered stackable grid">
+      <div class="six wide computer eight wide tablet fourteen wide mobile column">
+        <div class="ui yellow placeholder segment">
+          <div class="ui yellow header">imagen introductoria</div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
 <body>
 
     <header class="main-header">
@@ -63,6 +107,14 @@
             <button class="cta-button">¡Comprá Ahora con Descuento!</button>
         </section>
     </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2026 Nombre de la Tienda. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
+</html>
 
     <footer class="main-footer">
         <p>&copy; 2026 Nombre de la Tienda. Todos los derechos reservados.</p>
