@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Header y Hero - Fomantic UI</title>
 
-  <!-- Fomantic UI conectado por CDN -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.4/dist/semantic.min.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda - Inicio</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2/dist/semantic.min.css">
+
 </head>
 <body>
 
@@ -75,50 +77,221 @@
             <p>Acá va el párrafo introductorio. Podés describir brevemente de qué se trata la tienda, la calidad de los productos o el lanzamiento actual.</p>
         </section>
 
-        <section id="productos" class="products-grid">
-            
-            <article class="product-card">
-                <img src="placeholder-prod1.jpg" alt="Producto 1">
-                <h3>Producto 1</h3>
-                <p>Descripción corta del producto 1 para atraer al usuario.</p>
-                <span class="price">$9.999</span>
-                <a href="detalle.html" class="btn-detail">Ver detalle</a>
-            </article>
+<section id="productos" class="ui segment">
+  
+  <h2 class="ui center aligned header">Productos destacados</h2>
 
-            <article class="product-card">
-                <img src="placeholder-prod2.jpg" alt="Producto 2">
-                <h3>Producto 2</h3>
-                <p>Descripción corta del producto 2 para atraer al usuario.</p>
-                <span class="price">$12.500</span>
-                <a href="detalle.html" class="btn-detail">Ver detalle</a>
-            </article>
+  <!-- Hamburguesas -->
+  <h3 class="ui blue header center aligned">Hamburguesas</h3>
+  <div class="ui three stackable cards centered">
+    <div class="card">
+      <div class="image">
+        <a href="poner link de detalle simple" target="_blank">
+          <img class="ui small image product-img" src="/version-con-tailwind/img/simple.png" alt="Hamburguesa simple">
+        </a>
+      </div>
+      <div class="content">
+        <div class="header">Simple</div>
+        <div class="meta">$15.499</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="image">
+        <a href="poner link de detalle doble" target="_blank">
+          <img class="ui small image product-img" src="/version-con-tailwind/img/doble.png" alt="Hamburguesa doble">
+        </a>
+      </div>
+      <div class="content">
+        <div class="header">Doble</div>
+        <div class="meta">$17.499</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="image">
+        <a href="poner link de detalle pollo" target="_blank">
+          <img class="ui small image product-img" src="/version-con-tailwind/img/pollo.png" alt="Hamburguesa de pollo">
+        </a>
+      </div>
+      <div class="content">
+        <div class="header">Pollo</div>
+        <div class="meta">$19.499</div>
+      </div>
+    </div>
+  </div>
 
-            <article class="product-card">
-                <img src="placeholder-prod3.jpg" alt="Producto 3">
-                <h3>Producto 3</h3>
-                <p>Descripción corta del producto 3 para atraer al usuario.</p>
-                <span class="price">$8.400</span>
-                <a href="detalle.html" class="btn-detail">Ver detalle</a>
-            </article>
+  <!-- Lomitos -->
+  <h3 class="ui green header center aligned">Lomitos</h3>
+  <div class="ui four stackable cards centered">
+    <div class="card">
+      <div class="image">
+        <a href="poner link de detalle clasico" target="_blank">
+          <img class="ui small image product-img" src="/version-con-tailwind/img/l_clasico.png" alt="Lomito clásico">
+        </a>
+      </div>
+      <div class="content">
+        <div class="header">Clásico</div>
+        <div class="meta">$19.999</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="image">
+        <a href="poner link de detalle clasico pollo" target="_blank">
+          <img class="ui small image product-img" src="/version-con-tailwind/img/l_clasicopollo.png" alt="Lomito clásico pollo">
+        </a>
+      </div>
+      <div class="content">
+        <div class="header">Clásico Pollo</div>
+        <div class="meta">$20.499</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="image">
+        <a href="poner link de detalle completo" target="_blank">
+          <img class="ui small image product-img" src="/version-con-tailwind/img/l_completo.png" alt="Lomito completo">
+        </a>
+      </div>
+      <div class="content">
+        <div class="header">Completo</div>
+        <div class="meta">$21.499</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="image">
+        <a href="poner link de detalle lomito simple" target="_blank">
+          <img class="ui small image product-img" src="/version-con-tailwind/img/l_simple.png" alt="Lomito simple">
+        </a>
+      </div>
+      <div class="content">
+        <div class="header">Simple</div>
+        <div class="meta">$17.999</div>
+      </div>
+    </div>
+  </div>
 
-        </section>
+  <!-- Snacks -->
+  <h3 class="ui orange header center aligned">Snacks</h3>
+  <div class="ui three stackable cards centered">
+    <div class="card">
+      <div class="image">
+        <a href="poner link de detalle aros cebolla" target="_blank">
+          <img class="ui small image product-img" src="/version-con-tailwind/img/a_cebolla.png" alt="Aros de cebolla">
+        </a>
+      </div>
+      <div class="content">
+        <div class="header">Aros de cebolla</div>
+        <div class="meta">$7.499</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="image">
+        <a href="poner link de detalle nuggets" target="_blank">
+          <img class="ui small image product-img" src="/version-con-tailwind/img/nuggets.png" alt="Nuggets">
+        </a>
+      </div>
+      <div class="content">
+        <div class="header">Nuggets</div>
+        <div class="meta">$8.999</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="image">
+        <a href="poner link de detalle papas fritas" target="_blank">
+          <img class="ui small image product-img" src="/version-con-tailwind/img/papas.png" alt="Papas fritas">
+        </a>
+      </div>
+      <div class="content">
+        <div class="header">Papas fritas</div>
+        <div class="meta">$6.999</div>
+      </div>
+    </div>
+  </div>
+
+</section>
 
         <section class="cta-section">
             <button class="cta-button">¡Comprá Ahora con Descuento!</button>
         </section>
     </main>
 
-    <footer class="main-footer">
-        <p>&copy; 2026 Nombre de la Tienda. Todos los derechos reservados.</p>
-    </footer>
 
-</body>
-</html>
-</html>
+<footer class="ui inverted vertical segment footer-itec" style="margin: 0; padding: 3rem 1rem;">
+    
+    <div class="ui container">
+        
+        <!-- GRILLA: 3  -->
+        <div class="ui inverted stackable grid">
+            
+            <!-- COLUMNA 1 -->
+            <div class="five wide column">
+                <div class="logo-itec">ITEC</div>
+                <div class="logo-itec-subtitulo">BURGERS</div>
+                <div class="descripcion-itec">
+                    Sabor auténtico en cada hamburguesa. Hechas con ingredientes de calidad.
+                </div>
+            </div>
 
-    <footer class="main-footer">
-        <p>&copy; 2026 Nombre de la Tienda. Todos los derechos reservados.</p>
-    </footer>
+            <!-- COLUMNA 2 -->
+            <div class="five wide column">
+                <h4 class="ui header">Contacto</h4>
+                <div class="ui relaxed list">
+                    <div class="item">
+                        <a href="#">+54 (358) 123-4567</a>
+                    </div>
+                    <div class="item">
+                        <a href="#">info@itecburgers.com</a>
+                    </div>
+                    <div class="item">
+                        Río Cuarto, Córdoba, Argentina
+                    </div>
+                    <div class="item">
+                        Lun-Dom: 11:00 - 23:00
+                    </div>
+                </div>
+            </div>
+
+            <!-- COLUMNA 3 -->
+            <div class="six wide column">
+                <h4 class="ui header">Legal</h4>
+                <div class="ui relaxed list">
+                    <div class="item">
+                        <a href="#privacidad">Política de Privacidad</a>
+                    </div>
+                    <div class="item">
+                        <a href="#terminos">Términos de Uso</a>
+                    </div>
+                    <div class="item">
+                        <a href="#cookies">Cookies</a>
+                    </div>
+                    <div class="item">
+                        <a href="#entregas">Info de Entregas</a>
+                    </div>
+                    <div class="item">
+                        <a href="#cambios">Cambios y Devoluciones</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- SEPARADOR -->
+        <div class="ui divider"></div>
+
+        <!-- COPYRIGHT -->
+        <div style="text-align: center;">
+            <p class="copyright-text">
+                &copy; 2026 ITEC BURGERS. Todos los derechos reservados.
+            </p>
+            <p class="copyright-subtext">
+                Desarrollado por estudiantes de ITEC Río Cuarto
+            </p>
+        </div>
+
+    </div>
+
+</footer>   
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2/dist/semantic.min.js"></script>
 
 </body>
 </html>
